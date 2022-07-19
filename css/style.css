@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 html {
     scroll-behavior: smooth;
@@ -73,6 +74,7 @@ html {
     background-size: cover;
     background-blend-mode: darken;
 
+
 }
 .firstSection{
     height: 100vh;
@@ -87,6 +89,7 @@ html {
     max-width: 50%;
     margin: auto;
     height: 80%;
+
 }
 .firstHalf{
     width: 80%;
@@ -146,6 +149,8 @@ html {
     justify-content: space-evenly;
     max-width:80%;
     margin: auto;
+    margin-top: 1rem;
+
 }
 
 .thumbnail img{
@@ -167,7 +172,8 @@ html {
 }
 
 .contact {
-    background-color: rgba(245, 222, 179, 0.342);
+    background: -webkit-linear-gradient(rgb(20, 88, 110), rgb(28, 228, 178));
+    background-color: transparent;
     height: max-content;
     font-size: 30px;
     text-align: center;
@@ -194,7 +200,6 @@ html {
 }
 .btn-send {
     margin: 1rem;
-    background-color: none;
     color: black;
     width: 14%;
     padding: 20px;
@@ -202,15 +207,18 @@ html {
     font-family: 'Ubuntu', sans-serif;
     border: 0.1px solid black;
     border-radius: 8px;
+    background-color: transparent;
 
 }
 .footer {
     text-align: center;
     font-size: 19px;
+
 }
 .footer a {
     text-decoration: none;
-    color: purple;
+    color: black;
+    letter-spacing: 0.1rem;
     font-size: 20px;
 }
 .burger {
